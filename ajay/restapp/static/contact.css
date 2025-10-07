@@ -1,0 +1,53 @@
+contact.css
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkblue;
+  color: bisque;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: darkblue;
+  padding: 20px;
+  border-bottom: 3px solid orchid;
+}
+
+h1 {
+  color: orchid;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: orchid;
+}
+
+.contact {
+  padding: 50px;
+}
+
+
+footer {
+  background-color: darkblue;
+  color: #aaa;
+  padding: 15px;
+  border-top: 2px solid orchid;
+}
